@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Dataset files: keep large raw datasets out of Git
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated models and experiment outputs
+artifacts/*
+!artifacts/.gitkeep
+
+# Local IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
